@@ -65,8 +65,14 @@ html {
 body{
   font-family: var(--font-body);
   font-size: var(--font-body);
-  background: var(--background);
+  background: var(--color1);
   min-height: 100%;
+  min-width: 100%;
+}
+
+body.index{
+  background: var(--color1);
+  height: 100%;
   min-width: 100%;
 }
 
@@ -196,8 +202,9 @@ body{
 
 .categorias{
   width: 100%;
+  height: 100%;
   background:var(--color1);
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 .menu-categorias {
@@ -208,6 +215,7 @@ body{
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  
   
 }
 
@@ -272,6 +280,12 @@ body{
 
 
 /*--------------------SECTIONS-----------------------------*/
+main{
+  background: var(--background);
+  width: 100%;
+}
+
+
 
 .section{
   width: 90%;
