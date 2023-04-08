@@ -70,11 +70,6 @@ body{
   min-width: 100%;
 }
 
-body.index{
-  background: var(--color1);
-  height: 100%;
-  min-width: 100%;
-}
 
 /*--------------------HEADER-----------------------------*/
 
